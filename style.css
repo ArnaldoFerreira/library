@@ -1,0 +1,49 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    text-align: center;
+    background-image: linear-gradient(blue, pink, white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    gap: 20px;
+    width: 50%;
+    background-image: linear-gradient(purple, blue);
+    margin-top: 60px;
+}
+
+
+table,th,td{
+    border: solid 1px black;
+    border-collapse: collapse;
+    font-size: 1rem;
+    padding: 0.4rem;
+    text-align: center;
+}
+
+th{
+    background-color: darkblue;
+}
+
+#book-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+.form-group{
+    padding: 10px;
+    
+}
